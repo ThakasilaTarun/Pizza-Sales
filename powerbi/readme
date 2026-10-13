@@ -1,1 +1,88 @@
 
+# 🍕 Pizza Sales Analysis Dashboard Using Power BI
+
+## 📌 Project Overview
+This project presents an interactive Pizza Sales Analysis Dashboard developed using Power BI. The dashboard helps analyze sales performance, monitor key performance indicators (KPIs), explore order trends, and compare pizza sales across categories, sizes, and individual products.
+
+## 🎯 Project Objectives
+- Build an interactive sales dashboard.
+- Monitor important business KPIs.
+- Analyze daily and monthly order trends.
+- Compare revenue and quantity across pizza categories and sizes.
+- Visualize the best- and worst-performing pizzas.
+- Present business insights through interactive charts and visuals.
+
+## 🛠️ Tools & Technologies
+- **Power BI**
+- Power Query (if used)
+- DAX (if used)
+
+## 📊 Dashboard Pages
+
+### 1. Home Dashboard
+The Home Dashboard provides an overview of pizza sales performance.
+
+**Key metrics:**
+- Total Revenue
+- Average Order Value
+- Total Pizzas Sold
+- Total Orders
+- Average Pizzas Per Order
+
+**Visualizations:**
+- Daily order trends by day of the week.
+- Monthly order trends.
+- Revenue distribution by pizza category.
+- Sales distribution by pizza size.
+- Pizza quantity sold by category.
+- Interactive filters for pizza category, pizza size, and order date.
+
+### 2. Best/Worst Sales Dashboard
+This page compares the performance of individual pizzas.
+
+**Best-selling pizzas:**
+- Top 5 pizzas by revenue.
+- Top 5 pizzas by quantity sold.
+- Top 5 pizzas by total orders.
+
+**Worst-selling pizzas:**
+- Bottom 5 pizzas by revenue.
+- Bottom 5 pizzas by quantity sold.
+- Bottom 5 pizzas by total orders.
+
+## 💡 Key Insights
+- Friday and Saturday show high order volumes in the displayed report.
+- July and January show relatively high monthly order volumes.
+- The Classic pizza category contributes strongly to sales and orders.
+- Large pizzas account for a significant share of sales.
+- The best- and worst-selling pizza comparisons highlight differences in product performance.
+
+*These observations reflect the dashboard's displayed data and may vary when filters are applied.*
+
+## 📈 Business Value
+The dashboard makes sales data easier to understand and helps users identify sales patterns, popular pizza categories, customer ordering trends, and products that may need further attention.
+
+## 🚀 How to Explore
+1. Download or clone the project repository.
+2. Open the `.pbix` file in Power BI Desktop.
+3. Navigate between the Home Dashboard and Best/Worst Sales pages.
+4. Use the available slicers to filter the data.
+5. Explore the visuals to compare sales performance.
+
+## 📁 Suggested Repository Structure
+```text
+pizza-sales-analysis/
+├── README.md
+├── sql/
+│   └── pizza_sales_queries.sql
+├── data/
+└── powerbi/
+    └── Pizza_Sales_Report.pbix
+```
+
+## 👤 Author
+**Tarun Kumar**
+
+Aspiring Data Analyst | Power BI | SQL | Data Visualization
+
+#PowerBI #DataAnalytics #Dashboard #PizzaSalesAnalysis
